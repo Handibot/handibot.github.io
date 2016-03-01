@@ -7,9 +7,9 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="https://handibot.com/css/global.css">
     <script type="text/javascript">
-      window.onload = init;
+      
 
-      function init(){
+      function addTarget(){
         document.getElementByTagName("a").target="_blank";
       }
 
@@ -21,7 +21,7 @@
     }
     </style>
   </head>
- <body>
+ <body onload="addTarget()">
 <h4>Handibot MANUAL</h4>
  		<ul>
 	        <li><a href="/doc-output/Handibot 2 MANUAL Safe Use Source_v001.pdf"><strong>Handibot Safety Guide!</strong></a></li>
