@@ -7,14 +7,21 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="https://handibot.com/css/global.css">
    
+  <script type="text/javascript">
+      window.onload = addTarget();
 
+      function addTarget(){
+        document.getElementsByTagName("a").target = "_blank";
+      }
+
+    </script>
     <style type="text/css">
     html, body{
       background:#fff;
     }
     </style>
   </head>
- <body onload="addTarget()">
+ <body>
   
 <h4>Handibot MANUAL</h4>
  		<ul>
@@ -46,13 +53,6 @@
     	    <li><a href="/doc-output/Manual_+2_Axis_Accessory_(004588).pdf">Manual +2 Axis Accessory</a></li>
         </ul>
 
-  <script type="text/javascript">
-      
 
-      function addTarget(){
-        document.getElementsByTagName("a").target = "_blank";
-      }
-
-    </script>
     </body>
     </html>
