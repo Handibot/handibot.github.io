@@ -7,8 +7,10 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="https://handibot.com/css/global.css">
     <script type="text/javascript">
-      function addLinkTarget(){
-        document.getElementByTagName(a).target="_blank"
+      window.onload = init;
+
+      function init(){
+        document.getElementByTagName("a").target="_blank";
       }
 
     </script>
