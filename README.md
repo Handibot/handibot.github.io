@@ -8,3 +8,5 @@ The current versions of help files with their common, calling-names can be found
 
 ##Posting New Doc
 When posting a new or updated document: 1) Copy new doc with full name to both doc-output and doc-archive folders; 2) Then, in doc-output, delete the existing version of the doc, and rename new doc to the common calling name.
+
+##the NEWS page for basic Handibot News
