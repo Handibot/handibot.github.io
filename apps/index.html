@@ -48,6 +48,7 @@
 		  <li><a id="fabmo-beamer-app-link"><strong>Beamer App</strong></a></li>
 		  <li><a id="fabmo-terrainman-app-link"><strong>TerrainMan App</strong></a></li>
 		  <li><a id="fabmo-example-app-link"><strong>EXAMPLE App</strong></a></li>
+		  <li><a id="fabmo-smoothsketch-app-link"><strong>SmoothSketch App</strong></a></li>
 
         </ul>
 
@@ -104,6 +105,9 @@
     		});
     		getReleaseFileLink("fabmo","fabmo-example-app",function(link){
     			$('#fabmo-example-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-smoothsketch-app",function(link){
+    			$('#fabmo-smoothsketch-app-link').attr("href",link);
     		});
     	});
     	var getReleaseFileLink = function(org,repo,callback){
