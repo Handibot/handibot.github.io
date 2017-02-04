@@ -112,6 +112,12 @@
     		getReleaseFileLink("fabmo","fabmo-smoothsketch-app",function(link){
     			$('#fabmo-smoothsketch-app-link').attr("href",link);
     		});
+    		getReleaseFileLink("fabmo","fabmo-macroinstall-h2-app",function(link){
+    			$('#fabmo-macroinstall-h2-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-macroinstall-h1-app",function(link){
+    			$('#fabmo-macroinstall-h2-app-link').attr("href",link);
+    		});
     	});
     	var getReleaseFileLink = function(org,repo,callback){
     		$.get('https://api.github.com/repos/'+org+'/'+repo+'/releases/latest',function(data){
