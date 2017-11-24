@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://handibot.com/css/global.css">
+   
+    <script type="text/javascript">
+      window.onload = addTarget();
+
+      function addTarget(){
+        document.getElementsByTagName("a").target = "_blank";
+      }
+    </script>
+
+  </head>
+
+<body class="right-sidebar">
+  
+<div id="header-bar">
+  <div>
+    <h1>Handibot <strong>Apps</strong></h1>
+  </div>
+</div>
+
+<div class="row">
+  <div id="main-content">
+    <div class="panel">  
+      <h4>Here are some Early Apps for your FabMo-Enabled Handibot (V2)</h4>
+        <p>We've recently released a major update for the FabMo software for your Handibot!</p>
+        <p>We've put together a few <strong> Handibot Apps </strong> here. Most of these have already been installed on your tool. But we will post new App examples as they become available and post updates here as well.</p>
+        <p>These Apps are the most recent versions from the <strong>FabMo App Store</strong> -- currently under development but coming to your neighborhood soon!</p>
+        <p><strong>TO INSTALL Apps:</strong> Click here to download an App to a folder on your device. Then, when linked to your tool (AP or Network), click on "Install App" from the Dashboard. You will be prompted to browse to the download folder to grab the App for your Handibot.</p>
+        <p> </p>
+        <p><em>Welcome to the Adventure!</em></p>
+        <p> </p>
+        <ul>
+          <li><a id="fabmo-quick-launch-app-link"><strong>Quick Launch App</strong></a></li>
+		  <li><a id="fabmo-fireup-app-link"><strong>Fire-Up! App</strong></a></li>
+          <p> </p>
+ 		  <li><a id="fabmo-the-news-app-link"><strong>theNEWS App</strong></a></li>
+		  <li><a id="fabmo-touchandgo-app-link"><strong>Touch-and-Go App</strong></a></li>
+		  <li><a id="fabmo-sb4-app-link"><strong>Sb4 App</strong></a></li>
+          <p> </p>
+		  <li><a id="fabmo-holecutter-app-link"><strong>Holecutter App</strong></a></li>
+		  <li><a id="fabmo-beamer-app-link"><strong>Beamer App</strong></a></li>
+		  <li><a id="fabmo-terrainman-app-link"><strong>TerrainMan App</strong></a></li>
+		  <li><a id="fabmo-example-app-link"><strong>EXAMPLE App</strong></a></li>
+		  <li><a id="fabmo-smoothsketch-app-link"><strong>SmoothSketch App</strong></a></li>
+		  <li><a href="Badger_v0.0.1.fma"><strong>Badger App</strong></a></li>
+        </ul>
+        <p><em>Special Macro-Installer Apps (only needed to install default Macros)</em></p>
+        <ul>
+          <li><a id="fabmo-macroinstall-h2-app-link"><strong>Macro Installer App for V2 Handibot</strong></a></li>
+          <li><a id="fabmo-macroinstall-h1-app-link"><strong>Macro Installer App for V1(w/FabMo Upgrade) Handibot</strong></a></li>
+        </ul>
+        <p><brk></p>
+        <p><brk></p>
+
+    </div><!--end Panel-->
+  </div><!--end main-content-->
+
+  <div id="sidebar" class="two-panel">
+      <div class="panel callout">
+        <h1>Share</h1>
+        <div>
+          <h6>Your Projects:</h6>
+          <p>Write-ups, Videos &amp; Pix</p>
+          <h6>Your Ideas:</h6>
+          <p>for Handibot Apps, Hardware &amp; Accessories</p>
+        </div>
+        
+          <a href="http://handibot.net/community.php" class="small button">View our Community</a>
+        <?php } ?>
+      </div>
+     
+  </div>
+</div>
+
+    </body>
+    <script   src="//code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		getReleaseFileLink("fabmo","fabmo-quick-launch-app",function(link){
+    			$('#fabmo-quick-launch-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-fireup-app",function(link){
+    			$('#fabmo-fireup-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-the-news-app",function(link){
+    			$('#fabmo-the-news-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-touchandgo-app",function(link){
+    			$('#fabmo-touchandgo-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-sb4-app",function(link){
+    			$('#fabmo-sb4-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-holecutter-app",function(link){
+    			$('#fabmo-holecutter-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-beamer-app",function(link){
+    			$('#fabmo-beamer-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-terrainman-app",function(link){
+    			$('#fabmo-terrainman-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-example-app",function(link){
+    			$('#fabmo-example-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-smoothsketch-app",function(link){
+    			$('#fabmo-smoothsketch-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-macroinstall-h2-app",function(link){
+    			$('#fabmo-macroinstall-h2-app-link').attr("href",link);
+    		});
+    		getReleaseFileLink("fabmo","fabmo-macroinstall-h1-app",function(link){
+    			$('#fabmo-macroinstall-h1-app-link').attr("href",link);
+    		});
+    	});
+    	var getReleaseFileLink = function(org,repo,callback){
+    		$.get('https://api.github.com/repos/'+org+'/'+repo+'/releases/latest',function(data){
+    			callback(data.assets[0].browser_download_url);
+    		});
+    	};
+    
+    </script>
+    
+    </html>
