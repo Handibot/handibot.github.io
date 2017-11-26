@@ -45,10 +45,10 @@
         <p>Each link includes full instructions.</p>
         <p><strong>TO UPDATE:</strong> Click on one of the links below.</p>
         <p> </p>
-        <ul>
-          <li><a href="../doc-output/FabMo Internet Update 1.6.x.pdf",{target : '_blank'}>FabMo Internet Update to Version 1.6.0</a></li>
-          <li><a href="../doc-output/FabMo AP Update 1.6.0.pdf",{target : '_blank'}>FabMo AP Mode Update to Version 1.6.0</a></li>
-        </ul>
+
+        <h6><a class="btn btn-primary" id="get-internet"> Get FabMo Internet Update to Version 1.6.0 </a></h3>
+        <h6><a class="btn btn-primary" id="get-ap"> Get FabMo AP Mode Update to Version 1.6.0 </a></h3>
+
         <p><brk></p>
         <p><em>Let us know if you have any problems.</em></p>
         <p><brk></p>
@@ -73,6 +73,15 @@
      
   </div>
 </div>
+<script>
+$("#get-internet").click(function(evt) {
+    fabmo.navigate('http://docs.handibot.com/doc-output/FabMo Internet Update 1.6.x.pdf', {target : '_blank'});
+});
+$("#get-ap").click(function(evt) {
+    fabmo.navigate('http://docs.handibot.com/doc-output/FabMo AP Update 1.6.0.pdf', {target : '_blank'});
+});
+</script>  
 
     </body>
     </html>
+
