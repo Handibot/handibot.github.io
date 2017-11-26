@@ -73,7 +73,16 @@
      
   </div>
 </div>
- <script type="text/javascript">
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/fabmo.js"></script>
+    <script type="text/javascript">
+      var fabmo = new FabMoDashboard();
+    </script>
+
+<script type="text/javascript">
 $("#get-internet").click(function(evt) {
     fabmo.navigate('http://docs.handibot.com/doc-output/FabMo Internet Update 1.6.x.pdf', {target : '_blank'});
 });
